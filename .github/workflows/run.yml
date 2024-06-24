@@ -1,4 +1,6 @@
-name: 'GitHub Actions CloudFlare2DNSPod Bot'
+/*
+
+//name: 'GitHub Actions CloudFlare2DNSPod Bot'
 
 on:
   push:
@@ -7,7 +9,7 @@ on:
   schedule:
     - cron: '*/15 * * * *'
 
-jobs:
+//jobs:
   build:
     runs-on: ubuntu-latest
     steps:
@@ -25,3 +27,6 @@ jobs:
           DOMAINS: ${{ secrets.DOMAINS }}
           PROVIDER: ${{ secrets.PROVIDER }}
         run: python cf2dns_actions.py
+
+
+*/
